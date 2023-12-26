@@ -1,14 +1,12 @@
 import type { FC } from 'react'
 
-import { Box, Heading } from '@chakra-ui/react'
+import Layout from '@root/layouts/Layout'
 
 const DashboardPage: FC = () => {
   return (
-    <Box>
-      <Heading>
-        Hello, world;
-      </Heading>
-    </Box>
+    <Layout>
+      <div>Hola desde el Dashboard</div>
+    </Layout>
   )
 }
 
