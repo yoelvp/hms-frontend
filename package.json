@@ -1,7 +1,15 @@
 {
   "name": "hms-frontend",
+  "description": "Project for hotel management",
+  "authors": [
+    "Valdir Contreras <contrerasvaldir06@gmail.com>",
+    "Yoel Valverde <yoelvp73@gmail.com>"
+  ],
+  "keywords": [
+    "Hotel Management Software"
+  ],
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -20,7 +28,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "7.47.0",
-    "react-router-dom": "6.17.0"
+    "react-icons": "4.12.0",
+    "react-router-dom": "6.17.0",
+    "zustand": "4.4.7"
   },
   "devDependencies": {
     "@tanstack/react-query-devtools": "5.4.2",
